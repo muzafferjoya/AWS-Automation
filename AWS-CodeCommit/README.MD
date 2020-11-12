@@ -13,6 +13,7 @@
  $ yum install git
 
 2. configure your identity
+
  $ git config --global user.name "Muzaffar khan"
 
  $ git config --global user.email "muzaffer----@gmail.com"
@@ -29,7 +30,7 @@
 
  $ ls
 
- $ echo '<h1> HelloWorld! </h1>' > index.html
+ $ echo '<h6> HelloWorld! </h6>' > index.html
 
  $ git status
 
