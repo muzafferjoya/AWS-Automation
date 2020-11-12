@@ -91,3 +91,42 @@
 
 20. Now, we pushed a file to our newly created repo in AWS CodeCommit. let's see the AWS CodeCommit console.
 
+
+
+### Setting up CodeCommit for SSH users using AWS CLI
+
+#### we will use SSH private and public keys to access the repository. We will be accessing the repository using SSH connections.
+
+#### Let's start
+
+1. yum install epel-release python-pip
+
+2. pip install awscli
+
+3. Now, let's configure AWS CLI:
+
+4. aws configure
+
+5. aws codecommit list-repositories
+
+6. aws codecommit create-repository --repository-name HelloWorld --repository-description "This repo includes static page of HelloWorld"
+
+7. aws codecommit list-repositories
+
+#### Let's try to clone the HelloWorld repo from CodeCommit to our dev machine, we have to establish SSH auth.
+
+1. ssh-keygen
+
+2. cd .ssh
+
+3. aws iam upload-ssh-public-key --user-name khan --ssh-public-key-body "ssh-rsa" 
+
+4. vim .ssh/config
+
+##### Host git-codecommit.ap-south-1.amazonaws.com 
+##### User AKIAQ2WK4LZHVWUHTCAP
+##### IdentityFile ~/.ssh/id_rsa
+
+
+
+
