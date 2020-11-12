@@ -127,6 +127,27 @@
 ##### User AKIAQ2WK4LZHVWUHTCAP
 ##### IdentityFile ~/.ssh/id_rsa
 
+##### Connectivity between the development machine and AWS CodeCommit:
+
+5. ssh git-codecommit.ap-south-1.amazonaws.com
+
+##### We get the output that says Successfully authenticated over SSH
+
+6. git clone ssh://git-codecommit.ap-south-1.amazonaws.com/v1/repos/HelloWorld1
+
+7. cd HelloWorld1
+
+8. touch index.html
+
+9. git add .
+
+10. git commit -m 'new'
+
+11. git push origin master
+
+12. In This stage, we successfully pushed our local file into the AWS CodeCommit HelloWorld1 repo
+
+
 
 
 
