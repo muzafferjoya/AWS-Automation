@@ -75,4 +75,19 @@
 
 12. Scroll Down, section HTTPS GIT cred for AWS CodeCommit, click on Generate
 
- 
+13. Again, let's go to the CodeCommit console and click on Clone URL and then HTTPS
+
+14. Copy the link git clone https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/HelloWorld
+
+15. Type, Username and Password
+
+16. Go to , HelloWorld Folder cd HelloWorld
+
+17. ls 
+
+18. touch index.html
+
+19. git push origin master
+
+20. Now, we pushed a file to our newly created repo in AWS CodeCommit. let's see the AWS CodeCommit console.
+
