@@ -43,3 +43,36 @@
 
  $ git push origin master
  
+
+
+### Introducing AWS CodeCommit - Amazon managed SaaS Git
+
+#### Getting started with CodeCommit for HTTP users
+
+### How to do it...
+
+1. Open the AWS CodeCommit Console at https://ap-south-1.console.aws.amazon.com/codecommit/
+
+2. Create a repo
+
+3. Next, Open the IAM console at https://console.aws.amazon.com/iam
+
+4. Click on Add User
+
+5. Give IAM user a username as khan and check both the Access type 
+
+6. Use Custom password
+
+7. Next, Attach existing policies 
+
+8. Search on searchbar AWSCodeCommitPowerUser policy and click on Next.
+
+9. Post review , click on create user
+
+10. Download credentials provided by the AWS IAM user, 
+
+11. Click on user section. Then, click on security credentials
+
+12. Scroll Down, section HTTPS GIT cred for AWS CodeCommit, click on Generate
+
+ 
