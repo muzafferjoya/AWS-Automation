@@ -12,6 +12,7 @@
 
 
 1. We have to install the Git package on our system
+
  $ yum install git
 
 2. configure your identity
