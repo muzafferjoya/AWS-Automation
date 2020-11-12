@@ -7,7 +7,9 @@
 #### Applying security and restrictions
 #### Migrating a Git repository to AWS CodeCommit
 
+
 ### Installation of Git and its implementation using Github
+
 
 1. We have to install the Git package on our system
  $ yum install git
@@ -30,7 +32,7 @@
 
  $ ls
 
- $ echo '<h6> HelloWorld! </h6>' > index.html
+ $ touch index.html
 
  $ git status
 
